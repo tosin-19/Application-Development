@@ -1,4 +1,4 @@
-name: Auto Label New Features
+name: Application-Development
 
 on:
   issues:
@@ -19,4 +19,4 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               labels: ['new application features']
-            });
+            })
